@@ -1,1 +1,0 @@
-{"val": 0.7596519798012075, "params": {"n_estimators": 329, "reg_alpha": 0.007138083257828684, "reg_lambda": 0.11194634088732726, "colsample_bytree": 0.9, "subsample": 1.0, "learning_rate": 0.017, "max_depth": 10, "num_leaves": 141, "min_child_samples": 23}}
