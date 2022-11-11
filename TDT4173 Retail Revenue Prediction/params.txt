@@ -1,7 +1,27 @@
 LGBM
 
 
-{'n_estimators': 719,
+params_lgbm = {'n_estimators': 938,
+ 'reg_alpha': 1.5164169749185608,
+ 'reg_lambda': 5.825767035686706,
+ 'colsample_bytree': 0.7974226551608022,
+ 'subsample': 0.49152295281257335,
+ 'learning_rate': 0.005572329658736269,
+ 'max_depth': 17,
+ 'num_leaves': 365,
+ 'min_child_samples': 181}
+
+params_lgbm_new = {'n_estimators': 3026,
+ 'reg_alpha': 0.001040062342427825,
+ 'reg_lambda': 9.536389581781847,
+ 'colsample_bytree': 0.6630255094327253,
+ 'subsample': 0.6087496351756757,
+ 'learning_rate': 0.0030053826004048695,
+ 'max_depth': 81,
+ 'num_leaves': 89,
+ 'min_child_samples': 300}
+
+params_lgbm_new3 = {'n_estimators': 719,
  'reg_alpha': 0.04013536355554082,
  'reg_lambda': 0.12402181208475527,
  'colsample_bytree': 0.6532023094592692,
@@ -11,6 +31,17 @@ LGBM
  'num_leaves': 706,
  'min_child_samples': 292}
 
+
+
+params_lgbm_new2 = {'n_estimators': 366,
+ 'reg_alpha': 0.046433293427957184,
+ 'reg_lambda': 7.3647658153160185,
+ 'colsample_bytree': 0.6504777271414033,
+ 'subsample': 0.21125558206697211,
+ 'learning_rate': 0.015734794109992907,
+ 'max_depth': 31,
+ 'num_leaves': 29,
+ 'min_child_samples': 197}
 
 
  XGBoost
